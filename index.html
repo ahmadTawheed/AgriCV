@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriCV</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6ZPGS5VKV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6ZPGS5VKV');
+</script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -298,7 +307,6 @@
             to { transform: rotate(360deg); }
         }
 
-        /* Help Tooltip */
         .help-btn {
             width: 24px;
             height: 24px;
@@ -346,7 +354,6 @@
             visibility: visible;
         }
 
-        /* Checkbox Style */
         .checkbox-custom {
             display: flex;
             align-items: center;
@@ -554,102 +561,6 @@
                 </div>
             </div>
         </section>
-        
-        <!-- How to Use Section (New) -->
-        <section id="howToUseSection" class="py-20 px-4 border-t border-gray-800 bg-gray-900/30">
-            <div class="max-w-7xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display">كيف تستخدم الموقع؟</h2>
-                    <div class="w-20 h-1 bg-amber-500 mx-auto rounded-full"></div>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <div>
-                        <h3 class="text-2xl font-bold text-emerald-400 mb-4">خطوات بسيطة لإنشاء سيرتك الذاتية</h3>
-                        <ul class="space-y-3 text-gray-300">
-                            <li class="flex items-start gap-3">
-                                <svg class="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <span>اضغط على "إنشاء سيرة ذاتية جديدة" واختر اللغة المناسبة.</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <svg class="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <span>قم بملء بياناتك خطوة بخطوة (المعلومات الشخصية، التعليم، الخبرات...).</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <svg class="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <span>بعد الانتهاء، اضغط "نسخ النص" ثم افتح برنامج "Word" والصق النص.</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <svg class="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <span>احفظ الملف على جهازك بصيغة PDF أو Word النهائية.</span>
-                            </li>
-                        </ul>
-                        <div class="mt-8">
-                            <a href="#" target="_blank" class="btn-primary inline-flex items-center gap-2">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                شاهد شرح الفيديو
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card bg-gradient-to-br from-emerald-900/30 to-gray-900 p-8 text-center">
-                        <h4 class="text-xl font-bold mb-4 text-amber-400">نصيحة مهمة</h4>
-                        <p class="text-gray-300 mb-4">
-                            عند الانتهاء من تعبئة البيانات، سيقوم الموقع بنسخ نص منسق وجاهز للصق مباشرة في برنامج "مايكروسوفت وورد" أو أي برنامج تحرير نصوص آخر، مما يسهل عليك التعديل والحفظ.
-                        </p>
-                        <div class="w-16 h-16 mx-auto rounded-full bg-emerald-500/20 flex items-center justify-center">
-                            <svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="servicesSection" class="py-20 px-4 border-t border-gray-800">
-            <div class="max-w-7xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display">خدماتنا</h2>
-                    <div class="w-20 h-1 bg-amber-500 mx-auto rounded-full"></div>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="card">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-lg font-bold mb-2">إنشاء CV</h3>
-                        <p class="text-gray-400 text-sm">إنشاء سيرة ذاتية احترافية خطوة بخطوة</p>
-                    </div>
-                    <div class="card">
-                        <div class="w-12 h-12 rounded-xl bg-amber-500/20 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-lg font-bold mb-2">نسخ منسق</h3>
-                        <p class="text-gray-400 text-sm">نسخ النص ولصقه في Word بسهولة</p>
-                    </div>
-                    <div class="card">
-                        <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-lg font-bold mb-2">حفظ وتعديل</h3>
-                        <p class="text-gray-400 text-sm">حفظ سيرتك والتعديل عليها متى شئت</p>
-                    </div>
-                    <div class="card">
-                        <div class="w-12 h-12 rounded-xl bg-rose-500/20 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-lg font-bold mb-2">ثنائي اللغة</h3>
-                        <p class="text-gray-400 text-sm">إنشاء CV بالعربية أو الإنجليزية</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Footer -->
         <footer class="border-t border-gray-800 py-12 px-4">
@@ -664,32 +575,8 @@
                         <span class="font-bold text-xl font-display"><span class="text-emerald-400">Agri</span>CV</span>
                     </div>
                     
-                    <div class="flex items-center gap-4">
-                        <a href="https://wa.me/201501021670" target="_blank" class="w-10 h-10 rounded-xl bg-gray-800 hover:bg-emerald-600 flex items-center justify-center transition-colors" aria-label="WhatsApp">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.facebook.com/share/1F8yR6LeRR/" target="_blank" class="w-10 h-10 rounded-xl bg-gray-800 hover:bg-blue-600 flex items-center justify-center transition-colors" aria-label="Facebook">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.linkedin.com/in/ahmed-tawheed-165335252?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="w-10 h-10 rounded-xl bg-gray-800 hover:bg-blue-700 flex items-center justify-center transition-colors" aria-label="LinkedIn">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.instagram.com/ahmadtaw7eed?igsh=MWxscHEzZDF1eDg4Yw==" target="_blank" class="w-10 h-10 rounded-xl bg-gray-800 hover:bg-pink-600 flex items-center justify-center transition-colors" aria-label="Instagram">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                            </svg>
-                        </a>
-                    </div>
-
                     <p class="text-gray-500 text-sm">
-                        صُمم بكل حب بواسطة 
-                        <a href="https://ahmadtawheed.github.io/portfolio/?fbclid=IwdGRleAMftXNjbGNrAx-1aWV4dG4DYWVtAjExAAEeYHRD55in_8txXUIjX9CcqnrWVUZF19n6-dS03YDFgwWoFh1QV5j4r9gnftw_aem_CNP4_ByQg2Y0GED_JbDe-g" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-medium transition-colors">أحمد توحيد</a>
+                        صُمم بكل حب لمساعدة خريجي الزراعة
                     </p>
                 </div>
             </div>
@@ -712,7 +599,7 @@
                 <div class="flex items-center gap-3 bg-gray-800/50 px-4 py-2 rounded-xl">
                     <span class="text-emerald-400 font-bold" id="currentStepNum">1</span>
                     <span class="text-gray-400">/</span>
-                    <span class="text-gray-400" id="totalSteps">13</span>
+                    <span class="text-gray-400" id="totalSteps">16</span>
                 </div>
                 
                 <button id="saveDraftBtn" class="text-sm text-emerald-400 hover:text-emerald-300 transition-colors">
@@ -803,7 +690,6 @@
                 </button>
             </div>
             
-            <!-- Updated Instructions -->
             <div class="bg-blue-500/10 border border-blue-500/30 rounded-xl p-4 mb-4">
                 <div class="flex items-start gap-3">
                     <svg class="w-6 h-6 text-blue-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -811,7 +697,7 @@
                     </svg>
                     <div>
                         <p class="text-blue-400 font-bold mb-1">تعليمات النسخ</p>
-                        <p class="text-gray-300 text-sm">اضغط على زر "نسخ النص" بالأسفل، ثم افتح برنامج <strong>Microsoft Word</strong> (أو أي برنامج نصوص) واضغط <strong>Ctrl + V</strong> للصق والتعديل والحفظ.</p>
+                        <p class="text-gray-300 text-sm">اضغط على زر "نسخ النص" بالأسفل، ثم افتح برنامج <strong>Microsoft Word</strong> واضغط <strong>Ctrl + V</strong> للصق.</p>
                     </div>
                 </div>
             </div>
@@ -821,7 +707,6 @@
             </div>
             
             <div class="flex flex-col gap-3 mt-6">
-                <!-- Removed PDF/Word Buttons -->
                 <button id="copyTextBtn" class="btn-primary w-full text-lg py-4">
                     <svg class="inline-block w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
@@ -867,10 +752,13 @@
             { id: 'summary', title: 'الملخص المهني' },
             { id: 'experience', title: 'الخبرات العملية' },
             { id: 'education', title: 'التعليم' },
+            { id: 'projects', title: 'المشاريع' },
+            { id: 'volunteering', title: 'التطوع' },
             { id: 'training', title: 'البرامج التدريبية' },
             { id: 'courses', title: 'الكورسات' },
             { id: 'certificates', title: 'الشهادات' },
             { id: 'skills', title: 'المهارات' },
+            { id: 'languages', title: 'اللغات' },
             { id: 'interests', title: 'الأنشطة والاهتمامات' },
             { id: 'preview', title: 'المعاينة النهائية' }
         ];
@@ -884,11 +772,14 @@
             summary: '',
             experience: [],
             education: { university: '', faculty: 'كلية الزراعة', month: '', year: '', militaryStatus: '' },
+            projects: [],
+            volunteering: [],
             training: [],
             courses: [],
             certificates: [],
             skills: [],
             hasLicense: false,
+            languages: [{ name: 'العربية', level: 'native' }],
             interests: []
         };
 
@@ -930,7 +821,6 @@
                     tooltip.classList.remove('active');
                     activeHelpTooltips.delete(id);
                 } else {
-                    // Close all other tooltips
                     activeHelpTooltips.forEach(tid => {
                         const t = document.getElementById(tid);
                         if (t) t.classList.remove('active');
@@ -1030,11 +920,14 @@
                 summary: '',
                 experience: [],
                 education: { university: '', faculty: 'كلية الزراعة', month: '', year: '', militaryStatus: '' },
+                projects: [],
+                volunteering: [],
                 training: [],
                 courses: [],
                 certificates: [],
                 skills: [],
                 hasLicense: false,
+                languages: [{ name: 'العربية', level: 'native' }],
                 interests: []
             };
         }
@@ -1049,58 +942,35 @@
             const container = document.getElementById('stepContent');
             const step = STEPS[currentStep];
             
-            // Update navigation buttons
             document.getElementById('prevStepBtn').classList.toggle('hidden', currentStep === 0);
             document.getElementById('nextStepBtn').textContent = currentStep === STEPS.length - 1 ? 'إنهاء' : 'التالي';
             
             let content = '';
             
             switch(step.id) {
-                case 'language':
-                    content = renderLanguageStep();
-                    break;
-                case 'personal':
-                    content = renderPersonalStep();
-                    break;
-                case 'links':
-                    content = renderLinksStep();
-                    break;
-                case 'location':
-                    content = renderLocationStep();
-                    break;
-                case 'summary':
-                    content = renderSummaryStep();
-                    break;
-                case 'experience':
-                    content = renderExperienceStep();
-                    break;
-                case 'education':
-                    content = renderEducationStep();
-                    break;
-                case 'training':
-                    content = renderTrainingStep();
-                    break;
-                case 'courses':
-                    content = renderCoursesStep();
-                    break;
-                case 'certificates':
-                    content = renderCertificatesStep();
-                    break;
-                case 'skills':
-                    content = renderSkillsStep();
-                    break;
-                case 'interests':
-                    content = renderInterestsStep();
-                    break;
-                case 'preview':
-                    content = renderPreviewStep();
-                    break;
+                case 'language': content = renderLanguageStep(); break;
+                case 'personal': content = renderPersonalStep(); break;
+                case 'links': content = renderLinksStep(); break;
+                case 'location': content = renderLocationStep(); break;
+                case 'summary': content = renderSummaryStep(); break;
+                case 'experience': content = renderExperienceStep(); break;
+                case 'education': content = renderEducationStep(); break;
+                case 'projects': content = renderProjectsStep(); break;
+                case 'volunteering': content = renderVolunteeringStep(); break;
+                case 'training': content = renderTrainingStep(); break;
+                case 'courses': content = renderCoursesStep(); break;
+                case 'certificates': content = renderCertificatesStep(); break;
+                case 'skills': content = renderSkillsStep(); break;
+                case 'languages': content = renderLanguagesStep(); break;
+                case 'interests': content = renderInterestsStep(); break;
+                case 'preview': content = renderPreviewStep(); break;
             }
             
             container.innerHTML = `<div class="animate-fadeInUp">${content}</div>`;
             attachStepListeners();
         }
 
+        // ========== Step Renderers ==========
         function renderLanguageStep() {
             return `
                 <div class="text-center mb-8">
@@ -1111,18 +981,6 @@
                     </div>
                     <h2 class="text-2xl font-bold mb-2">اختر لغة السيرة الذاتية</h2>
                     <p class="text-gray-400">حدد اللغة التي تريد إنشاء سيرتك الذاتية بها</p>
-                </div>
-                
-                <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4 mb-6">
-                    <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <div>
-                            <p class="text-amber-400 font-medium text-sm">نصيحة</p>
-                            <p class="text-gray-300 text-sm">إذا كنت تتقدم لوظيفة في شركة دولية أو متعددة الجنسيات، يُفضل اختيار اللغة الإنجليزية. للشركات المحلية، العربية هي الأنسب.</p>
-                        </div>
-                    </div>
                 </div>
                 
                 <div class="grid grid-cols-2 gap-4">
@@ -1156,53 +1014,20 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Personal Information' : 'المعلومات الشخصية'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Enter your contact details' : 'أدخل بيانات الاتصال الخاصة بك'}</p>
                 </div>
                 
                 <div class="space-y-5">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Full Name (Four parts)' : 'الاسم الرباعي'}</label>
-                            <div class="help-tooltip" id="help-name">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-name')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">مثال:</p>
-                                    <p class="text-gray-300">أحمد محمد علي حسن</p>
-                                    <p class="text-gray-400 text-xs mt-2">اكتب اسمك الكامل كما سيظهر في السيرة الذاتية</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="text" id="fullName" class="input-field" placeholder="${isEnglish ? 'Enter your full name' : 'أدخل اسمك الرباعي'}" value="${cvData.personal.fullName}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Full Name' : 'الاسم الرباعي'}</label>
+                        <input type="text" id="fullName" class="input-field" value="${cvData.personal.fullName}">
                     </div>
-                    
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Email Address' : 'البريد الإلكتروني'}</label>
-                            <div class="help-tooltip" id="help-email">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-email')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">مثال:</p>
-                                    <p class="text-gray-300">ahmed.hassan@gmail.com</p>
-                                    <p class="text-gray-400 text-xs mt-2">استخدم بريداً احترافياً يحتوي على اسمك</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="email" id="email" class="input-field" placeholder="${isEnglish ? 'example@email.com' : 'example@email.com'}" value="${cvData.personal.email}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Email' : 'البريد الإلكتروني'}</label>
+                        <input type="email" id="email" class="input-field" value="${cvData.personal.email}">
                     </div>
-                    
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Phone Number' : 'رقم الهاتف'}</label>
-                            <div class="help-tooltip" id="help-phone">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-phone')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">مثال:</p>
-                                    <p class="text-gray-300">+20 123 456 7890</p>
-                                    <p class="text-gray-400 text-xs mt-2">أضف كود الدولة للوظائف الدولية</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="tel" id="phone" class="input-field" placeholder="+20 123 456 7890" value="${cvData.personal.phone}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Phone' : 'رقم الهاتف'}</label>
+                        <input type="tel" id="phone" class="input-field" value="${cvData.personal.phone}">
                     </div>
                 </div>
             `;
@@ -1218,21 +1043,12 @@
                     </div>
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <div class="flex items-center justify-between mb-2">
-                                <label class="text-xs text-gray-400">${isEnglish ? 'Link Name' : 'اسم الرابط'}</label>
-                                <div class="help-tooltip" id="help-linkname${index}">
-                                    <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-linkname${index}')">?</button>
-                                    <div class="help-content">
-                                        <p class="text-emerald-400 font-medium mb-1">أمثلة:</p>
-                                        <p class="text-gray-300 text-sm">LinkedIn، Portfolio، GitHub، ResearchGate</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <input type="text" class="input-field link-name" placeholder="${isEnglish ? 'e.g., LinkedIn' : 'مثل: لينكد إن'}" value="${link.name}">
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Name' : 'اسم الرابط'}</label>
+                            <input type="text" class="input-field link-name" value="${link.name}">
                         </div>
                         <div>
                             <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'URL' : 'الرابط'}</label>
-                            <input type="url" class="input-field link-url" placeholder="https://..." value="${link.url}">
+                            <input type="url" class="input-field link-url" value="${link.url}">
                         </div>
                     </div>
                 </div>
@@ -1246,23 +1062,11 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Important Links' : 'الروابط المهمة'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your professional links' : 'أضف روابطك المهنية (اختياري)'}</p>
-                </div>
-                
-                <div class="bg-purple-500/10 border border-purple-500/30 rounded-xl p-4 mb-6">
-                    <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <div>
-                            <p class="text-purple-400 font-medium text-sm">${isEnglish ? 'Why add links?' : 'لماذا تضيف روابط؟'}</p>
-                            <p class="text-gray-300 text-sm">${isEnglish ? 'Adding LinkedIn profile increases your chances by 40%. Portfolio showcases your work.' : 'إضافة ملف LinkedIn يزيد فرصك بنسبة 40%. معرض الأعمال يعرض إنجازاتك.'}</p>
-                        </div>
-                    </div>
+                    <p class="text-gray-400">${isEnglish ? 'Add your professional links (optional)' : 'أضف روابطك المهنية (اختياري)'}</p>
                 </div>
                 
                 <div id="linksContainer">
-                    ${linksHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No links added yet' : 'لم يتم إضافة روابط بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${linksHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No links added yet' : 'لم يتم إضافة روابط بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addLinkBtn" class="btn-secondary w-full">
@@ -1285,35 +1089,16 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Location' : 'الموقع'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Where are you located?' : 'أين تقيم؟'}</p>
                 </div>
                 
                 <div class="space-y-5">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Country' : 'الدولة'}</label>
-                            <div class="help-tooltip" id="help-country">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-country')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">مثال:</p>
-                                    <p class="text-gray-300">مصر، السعودية، الإمارات</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="text" id="country" class="input-field" placeholder="${isEnglish ? 'Enter your country' : 'أدخل دولتك'}" value="${cvData.location.country}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Country' : 'الدولة'}</label>
+                        <input type="text" id="country" class="input-field" value="${cvData.location.country}">
                     </div>
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'City' : 'المدينة'}</label>
-                            <div class="help-tooltip" id="help-city">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-city')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">مثال:</p>
-                                    <p class="text-gray-300">القاهرة، الرياض، دبي</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="text" id="city" class="input-field" placeholder="${isEnglish ? 'Enter your city' : 'أدخل مدينتك'}" value="${cvData.location.city}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'City' : 'المدينة'}</label>
+                        <input type="text" id="city" class="input-field" value="${cvData.location.city}">
                     </div>
                 </div>
             `;
@@ -1329,34 +1114,11 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Professional Summary' : 'الملخص المهني'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Write a brief summary about yourself' : 'اكتب ملخصاً مختصراً عن نفسك'}</p>
-                </div>
-                
-                <div class="bg-cyan-500/10 border border-cyan-500/30 rounded-xl p-4 mb-6">
-                    <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <div>
-                            <p class="text-cyan-400 font-medium text-sm">${isEnglish ? 'Tips for a great summary' : 'نصائح لملخص مميز'}</p>
-                            <ul class="text-gray-300 text-sm list-disc list-inside mt-2 space-y-1">
-                                <li>${isEnglish ? 'Keep it 3-4 sentences' : 'اجعله 3-4 جمل'}</li>
-                                <li>${isEnglish ? 'Highlight your key achievements' : 'أبرز إنجازاتك الرئيسية'}</li>
-                                <li>${isEnglish ? 'Mention your career goals' : 'اذكر أهدافك المهنية'}</li>
-                                <li>${isEnglish ? 'Tailor it to the job' : 'خصصه للوظيفة المستهدفة'}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-gray-800/50 rounded-xl p-4 mb-6">
-                    <p class="text-gray-400 text-sm mb-2">${isEnglish ? 'Example' : 'مثال'}:</p>
-                    <p class="text-gray-300 text-sm">${isEnglish ? 'Agricultural Engineering graduate with strong background in crop management and sustainable farming practices. Passionate about applying modern agricultural technologies to improve productivity. Seeking opportunities to contribute to innovative agricultural projects.' : 'خريج هندسة زراعية مع خلفية قوية في إدارة المحاصيل والممارسات الزراعية المستدامة. شغوف بتطبيق التقنيات الزراعية الحديثة لتحسين الإنتاجية. أسعى لفرص للمساهمة في مشاريع زراعية مبتكرة.'}</p>
                 </div>
                 
                 <div>
-                    <textarea id="summary" class="input-field min-h-[150px]" placeholder="${isEnglish ? 'Write your professional summary here...' : 'اكتب ملخصك المهني هنا...'}">${cvData.summary}</textarea>
-                    <p class="text-xs text-gray-500 mt-2"><span id="summaryCount">${cvData.summary.length}</span>/500 ${isEnglish ? 'characters' : 'حرف'}</p>
+                    <textarea id="summary" class="input-field min-h-[150px]" placeholder="${isEnglish ? 'Write your professional summary...' : 'اكتب ملخصك المهني...'}">${cvData.summary}</textarea>
+                    <p class="text-xs text-gray-500 mt-2"><span id="summaryCount">${cvData.summary.length}</span>/500</p>
                 </div>
             `;
         }
@@ -1372,31 +1134,12 @@
                     <div class="space-y-4">
                         <div class="grid md:grid-cols-2 gap-4">
                             <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="text-xs text-gray-400">${isEnglish ? 'Job Title' : 'المسمى الوظيفي'}</label>
-                                    <div class="help-tooltip" id="help-exptitle${index}">
-                                        <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-exptitle${index}')">?</button>
-                                        <div class="help-content">
-                                            <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                            <p class="text-gray-300 text-sm">${isEnglish ? 'Agricultural Engineer, Farm Manager, Research Assistant' : 'مهندس زراعي، مدير مزرعة، باحث مساعد (وقاية نبات)'}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" class="input-field exp-title" placeholder="${isEnglish ? 'Job Title' : 'المسمى الوظيفي'}" value="${exp.title}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Job Title' : 'المسمى الوظيفي'}</label>
+                                <input type="text" class="input-field exp-title" value="${exp.title}">
                             </div>
                             <div>
-                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Company Name' : 'اسم الشركة'}</label>
-                                <input type="text" class="input-field exp-company" placeholder="${isEnglish ? 'Company Name' : 'اسم الشركة'}" value="${exp.company}">
-                            </div>
-                        </div>
-                        <div class="grid md:grid-cols-2 gap-4">
-                            <div>
-                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'City' : 'المدينة'}</label>
-                                <input type="text" class="input-field exp-city" placeholder="${isEnglish ? 'City' : 'المدينة'}" value="${exp.city}">
-                            </div>
-                            <div>
-                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Country' : 'الدولة'}</label>
-                                <input type="text" class="input-field exp-country" placeholder="${isEnglish ? 'Country' : 'الدولة'}" value="${exp.country}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Company' : 'اسم الشركة'}</label>
+                                <input type="text" class="input-field exp-company" value="${exp.company}">
                             </div>
                         </div>
                         <div class="grid md:grid-cols-2 gap-4">
@@ -1409,27 +1152,14 @@
                                 <input type="month" class="input-field exp-end" value="${exp.endDate}" ${exp.currentlyWorking ? 'disabled' : ''}>
                                 <label class="checkbox-custom mt-2">
                                     <input type="checkbox" class="exp-current" ${exp.currentlyWorking ? 'checked' : ''} onchange="toggleCurrentlyWorking(${index}, this.checked)">
-                                    <span class="checkmark">
-                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                        </svg>
-                                    </span>
-                                    <span class="text-sm text-gray-300">${isEnglish ? 'Currently working here' : 'لا أزال أعمل هنا'}</span>
+                                    <span class="checkmark"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></span>
+                                    <span class="text-sm text-gray-300">${isEnglish ? 'Currently working' : 'لا أزال أعمل هنا'}</span>
                                 </label>
                             </div>
                         </div>
                         <div>
-                            <div class="flex items-center justify-between mb-2">
-                                <label class="text-xs text-gray-400">${isEnglish ? 'Description' : 'الوصف'}</label>
-                                <div class="help-tooltip" id="help-expdesc${index}">
-                                    <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-expdesc${index}')">?</button>
-                                    <div class="help-content">
-                                        <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'What to include:' : 'ماذا تتضمن:'}</p>
-                                        <p class="text-gray-300 text-sm">${isEnglish ? '- Main responsibilities\n- Key achievements\n- Technologies used' : '- المهام الرئيسية\n- الإنجازات الرئيسية\n- التقنيات المستخدمة'}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <textarea class="input-field exp-desc min-h-[100px]" placeholder="${isEnglish ? 'Describe your responsibilities and achievements...' : 'صف مسؤولياتك وإنجازاتك...'}">${exp.description}</textarea>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Description' : 'الوصف'}</label>
+                            <textarea class="input-field exp-desc min-h-[100px]">${exp.description}</textarea>
                         </div>
                     </div>
                 </div>
@@ -1443,23 +1173,11 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Work Experience' : 'الخبرات العملية'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your work experience' : 'أضف خبراتك العملية (اختياري)'}</p>
-                </div>
-                
-                <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4 mb-6">
-                    <div class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <div>
-                            <p class="text-amber-400 font-medium text-sm">${isEnglish ? 'Fresh graduate?' : 'خريج جديد؟'}</p>
-                            <p class="text-gray-300 text-sm">${isEnglish ? 'You can add internships, volunteer work, university projects, or part-time jobs.' : 'يمكنك إضافة التدريبات أو العمل التطوعي أو مشاريع الجامعة أو العمل الجزئي.'}</p>
-                        </div>
-                    </div>
+                    <p class="text-gray-400">${isEnglish ? 'Add your work experience (optional)' : 'أضف خبراتك العملية (اختياري)'}</p>
                 </div>
                 
                 <div id="experienceContainer">
-                    ${experienceHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No experience added yet' : 'لم يتم إضافة خبرات بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${experienceHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No experience added yet' : 'لم يتم إضافة خبرات بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addExperienceBtn" class="btn-secondary w-full">
@@ -1482,65 +1200,34 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Education' : 'التعليم'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your educational background' : 'أضف خلفيتك التعليمية'}</p>
                 </div>
                 
                 <div class="space-y-5">
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'University Name' : 'اسم الجامعة'}</label>
-                            <div class="help-tooltip" id="help-uni">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-uni')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                    <p class="text-gray-300 text-sm">${isEnglish ? 'Mansoura University, Cairo University' : 'جامعة المنصورة، جامعة القاهرة'}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="text" id="university" class="input-field" placeholder="${isEnglish ? 'e.g., Mansoura University' : 'مثال: جامعة المنصورة'}" value="${cvData.education.university}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'University Name' : 'اسم الجامعة'}</label>
+                        <input type="text" id="university" class="input-field" value="${cvData.education.university}">
                     </div>
-                    
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Faculty' : 'الكلية'}</label>
-                            <div class="help-tooltip" id="help-faculty">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-faculty')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                    <p class="text-gray-300 text-sm">${isEnglish ? 'Faculty of Agriculture, Plant Protection Dept' : 'كلية الزراعة - قسم وقاية نبات، كلية الهندسة الزراعية'}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="text" id="faculty" class="input-field" placeholder="${isEnglish ? 'e.g., Faculty of Agriculture' : 'مثال: كلية الزراعة - قسم وقاية نبات'}" value="${cvData.education.faculty}">
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Faculty' : 'الكلية'}</label>
+                        <input type="text" id="faculty" class="input-field" value="${cvData.education.faculty}">
                     </div>
-                    
                     <div class="grid grid-cols-2 gap-4">
                         <div>
                             <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Graduation Month' : 'شهر التخرج'}</label>
                             <select id="gradMonth" class="input-field">
-                                <option value="">${isEnglish ? 'Select month' : 'اختر الشهر'}</option>
+                                <option value="">${isEnglish ? 'Select' : 'اختر'}</option>
                                 ${['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'].map(m => `<option value="${m}" ${cvData.education.month === m ? 'selected' : ''}>${m}</option>`).join('')}
                             </select>
                         </div>
                         <div>
                             <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Graduation Year' : 'سنة التخرج'}</label>
-                            <input type="number" id="gradYear" class="input-field" placeholder="2024" min="1990" max="2030" value="${cvData.education.year}">
+                            <input type="number" id="gradYear" class="input-field" value="${cvData.education.year}" min="1990" max="2030">
                         </div>
                     </div>
-                    
                     <div>
-                        <div class="flex items-center justify-between mb-2">
-                            <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Military Status' : 'الموقف من التجنيد'}</label>
-                            <div class="help-tooltip" id="help-military">
-                                <button type="button" class="help-btn" onclick="toggleHelp('help-military')">?</button>
-                                <div class="help-content">
-                                    <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Options:' : 'الخيارات:'}</p>
-                                    <p class="text-gray-300 text-sm">${isEnglish ? 'Completed, Exempted, Postponed, Not required (for females)' : 'أديت الخدمة، معاف، مؤجل، غير مطالب (للإناث)'}</p>
-                                </div>
-                            </div>
-                        </div>
+                        <label class="text-sm font-medium text-gray-300 block mb-2">${isEnglish ? 'Military Status' : 'الموقف من التجنيد'}</label>
                         <select id="militaryStatus" class="input-field">
-                            <option value="">${isEnglish ? 'Select status' : 'اختر الموقف'}</option>
+                            <option value="">${isEnglish ? 'Select' : 'اختر'}</option>
                             <option value="completed" ${cvData.education.militaryStatus === 'completed' ? 'selected' : ''}>${isEnglish ? 'Completed' : 'أديت الخدمة'}</option>
                             <option value="exempted" ${cvData.education.militaryStatus === 'exempted' ? 'selected' : ''}>${isEnglish ? 'Exempted' : 'معاف'}</option>
                             <option value="postponed" ${cvData.education.militaryStatus === 'postponed' ? 'selected' : ''}>${isEnglish ? 'Postponed' : 'مؤجل'}</option>
@@ -1548,6 +1235,142 @@
                         </select>
                     </div>
                 </div>
+            `;
+        }
+
+        function renderProjectsStep() {
+            const isEnglish = cvData.language === 'en';
+            const projectsHtml = cvData.projects.map((p, index) => `
+                <div class="bg-gray-800/50 rounded-xl p-4 mb-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-sm font-medium text-violet-400">${isEnglish ? 'Project' : 'مشروع'} ${index + 1}</span>
+                        <button type="button" onclick="removeProject(${index})" class="text-red-400 hover:text-red-300 text-sm">${isEnglish ? 'Remove' : 'حذف'}</button>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Project Name' : 'اسم المشروع'}</label>
+                                <input type="text" class="input-field proj-name" value="${p.name}">
+                            </div>
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Date' : 'التاريخ'}</label>
+                                <input type="text" class="input-field proj-date" placeholder="${isEnglish ? 'e.g., 2023' : 'مثال: 2023'}" value="${p.date}">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Goal' : 'الهدف'}</label>
+                            <textarea class="input-field proj-goal min-h-[60px]" placeholder="${isEnglish ? 'What problem were you solving?' : 'ما المشكلة التي كنت تحاول حلها؟'}">${p.goal}</textarea>
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Your Role' : 'دورك'}</label>
+                            <textarea class="input-field proj-role min-h-[60px]" placeholder="${isEnglish ? 'What did you do?' : 'ماذا فعلت بالضبط؟'}">${p.role}</textarea>
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Tools Used' : 'الأدوات المستخدمة'}</label>
+                            <input type="text" class="input-field proj-tools" placeholder="${isEnglish ? 'Software, equipment, technologies' : 'البرامج، الأجهزة، التقنيات'}" value="${p.tools}">
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Result' : 'النتيجة'}</label>
+                            <textarea class="input-field proj-result min-h-[60px]" placeholder="${isEnglish ? 'What was the outcome?' : 'ماذا حدث في النهاية؟'}">${p.result}</textarea>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="text-center mb-8">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-violet-500/20 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Projects' : 'المشاريع'}</h2>
+                    <p class="text-gray-400">${isEnglish ? 'Add university projects (graduation project, major courses)' : 'أضف مشاريع الجامعة (مشروع التخرج، مشاريع المواد)'}</p>
+                </div>
+                
+                <div class="bg-violet-500/10 border border-violet-500/30 rounded-xl p-4 mb-6">
+                    <div class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-violet-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <div>
+                            <p class="text-violet-400 font-medium text-sm">${isEnglish ? 'What to include?' : 'ماذا تتضمن؟'}</p>
+                            <p class="text-gray-300 text-sm">${isEnglish ? 'Graduation project, major course projects, research projects' : 'مشروع التخرج، مشاريع المواد الرئيسية، مشاريع البحث'}</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="projectsContainer">
+                    ${projectsHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No projects added yet' : 'لم يتم إضافة مشاريع بعد'}</p>`}
+                </div>
+                
+                <button type="button" id="addProjectBtn" class="btn-secondary w-full">
+                    <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    ${isEnglish ? 'Add Project' : 'إضافة مشروع'}
+                </button>
+            `;
+        }
+
+        function renderVolunteeringStep() {
+            const isEnglish = cvData.language === 'en';
+            const volunteeringHtml = cvData.volunteering.map((v, index) => `
+                <div class="bg-gray-800/50 rounded-xl p-4 mb-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-sm font-medium text-pink-400">${isEnglish ? 'Volunteering' : 'تطوع'} ${index + 1}</span>
+                        <button type="button" onclick="removeVolunteering(${index})" class="text-red-400 hover:text-red-300 text-sm">${isEnglish ? 'Remove' : 'حذف'}</button>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Volunteering Name' : 'اسم التطوع'}</label>
+                                <input type="text" class="input-field vol-name" value="${v.name}">
+                            </div>
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Organization' : 'جهة التطوع'}</label>
+                                <input type="text" class="input-field vol-org" value="${v.organization}">
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Start Date' : 'تاريخ البداية'}</label>
+                                <input type="month" class="input-field vol-start" value="${v.startDate}">
+                            </div>
+                            <div>
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'End Date' : 'تاريخ النهاية'}</label>
+                                <input type="month" class="input-field vol-end" value="${v.endDate}">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Tasks & Skills Gained' : 'المهام والمهارات المكتسبة'}</label>
+                            <textarea class="input-field vol-tasks min-h-[100px]" placeholder="${isEnglish ? 'Describe your tasks and skills gained...' : 'صف المهام والمهارات التي اكتسبتها...'}">${v.tasks}</textarea>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="text-center mb-8">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-pink-500/20 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Volunteering' : 'التطوع'}</h2>
+                    <p class="text-gray-400">${isEnglish ? 'Add your volunteering experiences (optional)' : 'أضف خبراتك التطوعية (اختياري)'}</p>
+                </div>
+                
+                <div id="volunteeringContainer">
+                    ${volunteeringHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No volunteering added yet' : 'لم يتم إضافة تطوع بعد'}</p>`}
+                </div>
+                
+                <button type="button" id="addVolunteeringBtn" class="btn-secondary w-full">
+                    <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    ${isEnglish ? 'Add Volunteering' : 'إضافة تطوع'}
+                </button>
             `;
         }
 
@@ -1562,30 +1385,12 @@
                     <div class="space-y-4">
                         <div class="grid md:grid-cols-2 gap-4">
                             <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="text-xs text-gray-400">${isEnglish ? 'Training Name' : 'اسم التدريب'}</label>
-                                    <div class="help-tooltip" id="help-trainname${index}">
-                                        <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-trainname${index}')">?</button>
-                                        <div class="help-content">
-                                            <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                            <p class="text-gray-300 text-sm">${isEnglish ? 'Modern Irrigation, Plant Pathology' : 'أنظمة الري الحديثة، تشخيص أمراض النبات، وقاية نبات'}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" class="input-field train-name" placeholder="${isEnglish ? 'Training name' : 'اسم التدريب'}" value="${t.name}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Training Name' : 'اسم التدريب'}</label>
+                                <input type="text" class="input-field train-name" value="${t.name}">
                             </div>
                             <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="text-xs text-gray-400">${isEnglish ? 'Provider' : 'الجهة المنظمة'}</label>
-                                    <div class="help-tooltip" id="help-trainprov${index}">
-                                        <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-trainprov${index}')">?</button>
-                                        <div class="help-content">
-                                            <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                            <p class="text-gray-300 text-sm">${isEnglish ? 'Academy: ABC Training Academy\nUniversity: Mansoura University' : 'أكاديمية: أكاديمية التدريب الزراعي\nجامعة: جامعة المنصورة'}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" class="input-field train-provider" placeholder="${isEnglish ? 'e.g., Coursera, University' : 'مثل: كورسيرا، جامعة المنصورة'}" value="${t.provider}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Provider' : 'الجهة المنظمة'}</label>
+                                <input type="text" class="input-field train-provider" value="${t.provider}">
                             </div>
                         </div>
                         <div class="grid md:grid-cols-3 gap-4">
@@ -1598,26 +1403,16 @@
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Year' : 'السنة'}</label>
-                                <input type="number" class="input-field train-year" placeholder="2024" value="${t.year}">
+                                <input type="number" class="input-field train-year" value="${t.year}">
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Duration (hours)' : 'المدة (ساعات)'}</label>
-                                <input type="number" class="input-field train-duration" placeholder="${isEnglish ? 'Hours' : 'ساعات'}" value="${t.duration}">
+                                <input type="number" class="input-field train-duration" value="${t.duration}">
                             </div>
                         </div>
                         <div>
-                            <div class="flex items-center justify-between mb-2">
-                                <label class="text-xs text-gray-400">${isEnglish ? 'What did you learn?' : 'ماذا تعلمت؟'}</label>
-                                <div class="help-tooltip" id="help-trainlearn${index}">
-                                    <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-trainlearn${index}')">?</button>
-                                    <div class="help-content">
-                                        <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Example:' : 'مثال:'}</p>
-                                        <p class="text-gray-300 text-sm">${isEnglish ? 'Gained skills in drip irrigation design.' : 'اكتساب مهارات مكافحة الآفات وتشخيص الأمراض.'}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <textarea class="input-field train-learned min-h-[80px]" placeholder="${isEnglish ? 'Skills gained, projects completed...' : 'المهارات المكتسبة، المشاريع المنجزة...'}" maxlength="200">${t.learned}</textarea>
-                            <p class="text-xs text-gray-500 mt-1">${isEnglish ? 'Max 2 lines' : 'حد أقصى سطرين'}</p>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'What did you learn?' : 'ماذا تعلمت؟'}</label>
+                            <textarea class="input-field train-learned min-h-[80px]">${t.learned}</textarea>
                         </div>
                     </div>
                 </div>
@@ -1632,11 +1427,10 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Training Programs' : 'البرامج التدريبية'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your training experiences' : 'أضف خبراتك التدريبية (اختياري)'}</p>
                 </div>
                 
                 <div id="trainingContainer">
-                    ${trainingHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No training added yet' : 'لم يتم إضافة تدريبات بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${trainingHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No training added yet' : 'لم يتم إضافة تدريبات بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addTrainingBtn" class="btn-secondary w-full">
@@ -1659,30 +1453,12 @@
                     <div class="space-y-4">
                         <div class="grid md:grid-cols-2 gap-4">
                             <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="text-xs text-gray-400">${isEnglish ? 'Course Name' : 'اسم الكورس'}</label>
-                                    <div class="help-tooltip" id="help-coursename${index}">
-                                        <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-coursename${index}')">?</button>
-                                        <div class="help-content">
-                                            <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                            <p class="text-gray-300 text-sm">${isEnglish ? 'Introduction to Agriculture, Plant Pathology' : 'مقدمة في الزراعة، أمراض النبات، وقاية نبات'}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" class="input-field course-name" placeholder="${isEnglish ? 'Course name' : 'اسم الكورس'}" value="${c.name}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Course Name' : 'اسم الكورس'}</label>
+                                <input type="text" class="input-field course-name" value="${c.name}">
                             </div>
                             <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="text-xs text-gray-400">${isEnglish ? 'Provider' : 'مقدم الكورس'}</label>
-                                    <div class="help-tooltip" id="help-courseprov${index}">
-                                        <button type="button" class="help-btn text-xs" onclick="toggleHelp('help-courseprov${index}')">?</button>
-                                        <div class="help-content">
-                                            <p class="text-emerald-400 font-medium mb-1">${isEnglish ? 'Examples:' : 'أمثلة:'}</p>
-                                            <p class="text-gray-300 text-sm">${isEnglish ? 'Coursera, Udemy, edX' : 'كورسيرا، يوديمي، منصة روافد'}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="text" class="input-field course-provider" placeholder="${isEnglish ? 'e.g., Coursera' : 'مثل: كورسيرا'}" value="${c.provider}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Provider' : 'مقدم الكورس'}</label>
+                                <input type="text" class="input-field course-provider" value="${c.provider}">
                             </div>
                         </div>
                         <div class="grid md:grid-cols-3 gap-4">
@@ -1695,18 +1471,16 @@
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Year' : 'السنة'}</label>
-                                <input type="number" class="input-field course-year" placeholder="2024" value="${c.year}">
+                                <input type="number" class="input-field course-year" value="${c.year}">
                             </div>
                             <div>
-                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Duration (hours)' : 'المدة (ساعات)'}</label>
-                                <input type="number" class="input-field course-duration" placeholder="${isEnglish ? 'Hours' : 'ساعات'}" value="${c.duration}">
+                                <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Duration (hours)' : 'المدة'}</label>
+                                <input type="number" class="input-field course-duration" value="${c.duration}">
                             </div>
                         </div>
                         <div>
-                            <div class="flex items-center justify-between mb-2">
-                                <label class="text-xs text-gray-400">${isEnglish ? 'What did you learn?' : 'ماذا تعلمت؟'}</label>
-                            </div>
-                            <textarea class="input-field course-learned min-h-[80px]" placeholder="${isEnglish ? 'Skills gained...' : 'المهارات المكتسبة...'}" maxlength="200">${c.learned}</textarea>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'What did you learn?' : 'ماذا تعلمت؟'}</label>
+                            <textarea class="input-field course-learned min-h-[80px]">${c.learned}</textarea>
                         </div>
                     </div>
                 </div>
@@ -1720,11 +1494,10 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Online Courses' : 'الكورسات الإلكترونية'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add online courses you completed' : 'أضف الكورسات الإلكترونية التي أتممتها (اختياري)'}</p>
                 </div>
                 
                 <div id="coursesContainer">
-                    ${coursesHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No courses added yet' : 'لم يتم إضافة كورسات بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${coursesHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No courses added yet' : 'لم يتم إضافة كورسات بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addCourseBtn" class="btn-secondary w-full">
@@ -1748,11 +1521,11 @@
                         <div class="grid md:grid-cols-2 gap-4">
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Certificate Name' : 'اسم الشهادة'}</label>
-                                <input type="text" class="input-field cert-name" placeholder="${isEnglish ? 'Certificate name' : 'اسم الشهادة'}" value="${c.name}">
+                                <input type="text" class="input-field cert-name" value="${c.name}">
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Issuing Organization' : 'الجهة المانحة'}</label>
-                                <input type="text" class="input-field cert-issuer" placeholder="${isEnglish ? 'e.g., PMI' : 'مثل: وزارة الزراعة'}" value="${c.issuer}">
+                                <input type="text" class="input-field cert-issuer" value="${c.issuer}">
                             </div>
                         </div>
                         <div class="grid md:grid-cols-3 gap-4">
@@ -1765,11 +1538,11 @@
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Year' : 'السنة'}</label>
-                                <input type="number" class="input-field cert-year" placeholder="2024" value="${c.year}">
+                                <input type="number" class="input-field cert-year" value="${c.year}">
                             </div>
                             <div>
                                 <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Certificate ID' : 'رقم الاعتماد'}</label>
-                                <input type="text" class="input-field cert-id" placeholder="${isEnglish ? 'Optional' : 'اختياري'}" value="${c.certificateId || ''}">
+                                <input type="text" class="input-field cert-id" value="${c.certificateId || ''}">
                             </div>
                         </div>
                     </div>
@@ -1784,11 +1557,10 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Certificates' : 'الشهادات المهنية'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your professional certificates' : 'أضف شهاداتك المهنية (اختياري)'}</p>
                 </div>
                 
                 <div id="certificatesContainer">
-                    ${certsHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No certificates added yet' : 'لم يتم إضافة شهادات بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${certsHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No certificates added yet' : 'لم يتم إضافة شهادات بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addCertificateBtn" class="btn-secondary w-full">
@@ -1813,15 +1585,14 @@
                 </div>
             `).join('');
 
-            // Updated Skills Suggestions
             const suggestedSkills = isEnglish ? [
                 'Crop Management', 'Soil Analysis', 'Irrigation Systems', 'Pest Control',
                 'Plant Pathology', 'Agricultural Research', 'GIS', 'Data Analysis', 
-                'Project Management', 'Microsoft Office', 'Team Leadership', 'Communication'
+                'Project Management', 'Microsoft Office'
             ] : [
                 'إدارة المحاصيل', 'تحليل التربة', 'أنظمة الري', 'مكافحة الآفات',
-                'وقاية نبات', 'تشخيص أمراض النبات', 'البحث الزراعي', 'نظم المعلومات الجغرافية', 
-                'تحليل البيانات', 'إدارة المشاريع', 'مايكروسوفت أوفيس', 'قيادة الفرق'
+                'وقاية نبات', 'البحث الزراعي', 'نظم المعلومات الجغرافية', 'تحليل البيانات', 
+                'إدارة المشاريع', 'مايكروسوفت أوفيس'
             ];
 
             return `
@@ -1832,13 +1603,9 @@
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Skills' : 'المهارات'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Add your professional skills' : 'أضف مهاراتك المهنية'}</p>
                 </div>
                 
                 <div class="mb-6">
-                    <div class="flex items-center justify-between mb-2">
-                        <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Add a skill' : 'أضف مهارة'}</label>
-                    </div>
                     <div class="flex gap-2">
                         <input type="text" id="skillInput" class="input-field flex-1" placeholder="${isEnglish ? 'Enter a skill' : 'أدخل مهارة'}">
                         <button type="button" id="addSkillBtn" class="btn-primary px-6">${isEnglish ? 'Add' : 'إضافة'}</button>
@@ -1850,7 +1617,7 @@
                 </div>
                 
                 <div class="mb-6">
-                    <p class="text-sm text-gray-400 mb-3">${isEnglish ? 'Suggested skills for agriculture graduates:' : 'مهارات مقترحة لخريجي الزراعة:'}</p>
+                    <p class="text-sm text-gray-400 mb-3">${isEnglish ? 'Suggested skills:' : 'مهارات مقترحة:'}</p>
                     <div class="flex flex-wrap gap-2">
                         ${suggestedSkills.map(skill => `
                             <button type="button" onclick="addSuggestedSkill('${skill}')" class="px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-emerald-600/20 hover:text-emerald-400 text-sm transition-colors ${cvData.skills.includes(skill) ? 'bg-emerald-600/20 text-emerald-400' : ''}">${skill}</button>
@@ -1859,30 +1626,91 @@
                 </div>
                 
                 <div class="bg-gray-800/30 rounded-xl p-4">
-                    <div class="flex items-center justify-between mb-3">
-                        <label class="text-sm font-medium text-gray-300">${isEnglish ? 'Do you have a driving license?' : 'هل تملك رخصة قيادة؟'}</label>
-                    </div>
+                    <label class="text-sm font-medium text-gray-300 block mb-3">${isEnglish ? 'Do you have a driving license?' : 'هل تملك رخصة قيادة؟'}</label>
                     <div class="flex gap-4">
                         <label class="checkbox-custom">
                             <input type="radio" name="hasLicense" value="yes" ${cvData.hasLicense ? 'checked' : ''} onchange="cvData.hasLicense = true;">
-                            <span class="checkmark">
-                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </span>
+                            <span class="checkmark"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></span>
                             <span class="text-sm text-gray-300">${isEnglish ? 'Yes' : 'نعم'}</span>
                         </label>
                         <label class="checkbox-custom">
                             <input type="radio" name="hasLicense" value="no" ${!cvData.hasLicense ? 'checked' : ''} onchange="cvData.hasLicense = false;">
-                            <span class="checkmark">
-                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            </span>
+                            <span class="checkmark"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></span>
                             <span class="text-sm text-gray-300">${isEnglish ? 'No' : 'لا'}</span>
                         </label>
                     </div>
                 </div>
+            `;
+        }
+
+        function renderLanguagesStep() {
+            const isEnglish = cvData.language === 'en';
+            const levelLabels = {
+                'native': isEnglish ? 'Native' : 'اللغة الأم',
+                'fluent': isEnglish ? 'Fluent' : 'طلاقة',
+                'advanced': isEnglish ? 'Advanced' : 'متقدم',
+                'intermediate': isEnglish ? 'Intermediate' : 'متوسط',
+                'basic': isEnglish ? 'Basic' : 'مبتدئ'
+            };
+
+            const languagesHtml = cvData.languages.map((lang, index) => `
+                <div class="bg-gray-800/50 rounded-xl p-4 mb-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-sm font-medium text-sky-400">${isEnglish ? 'Language' : 'لغة'} ${index + 1}</span>
+                        ${index > 0 ? `<button type="button" onclick="removeLanguage(${index})" class="text-red-400 hover:text-red-300 text-sm">${isEnglish ? 'Remove' : 'حذف'}</button>` : ''}
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Language Name' : 'اسم اللغة'}</label>
+                            <input type="text" class="input-field lang-name" value="${lang.name}" ${index === 0 ? 'readonly' : ''}>
+                        </div>
+                        <div>
+                            <label class="text-xs text-gray-400 block mb-2">${isEnglish ? 'Level' : 'المستوى'}</label>
+                            <select class="input-field lang-level">
+                                <option value="native" ${lang.level === 'native' ? 'selected' : ''}>${levelLabels['native']}</option>
+                                <option value="fluent" ${lang.level === 'fluent' ? 'selected' : ''}>${levelLabels['fluent']}</option>
+                                <option value="advanced" ${lang.level === 'advanced' ? 'selected' : ''}>${levelLabels['advanced']}</option>
+                                <option value="intermediate" ${lang.level === 'intermediate' ? 'selected' : ''}>${levelLabels['intermediate']}</option>
+                                <option value="basic" ${lang.level === 'basic' ? 'selected' : ''}>${levelLabels['basic']}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="text-center mb-8">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-sky-500/20 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Languages' : 'اللغات'}</h2>
+                    <p class="text-gray-400">${isEnglish ? 'Add languages you speak' : 'أضف اللغات التي تتحدثها'}</p>
+                </div>
+                
+                <div class="bg-sky-500/10 border border-sky-500/30 rounded-xl p-4 mb-6">
+                    <div class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-sky-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <div>
+                            <p class="text-sky-400 font-medium text-sm">${isEnglish ? 'Note' : 'ملاحظة'}</p>
+                            <p class="text-gray-300 text-sm">${isEnglish ? 'Arabic is set as your native language by default. You can add more languages below.' : 'تم تعيين العربية كلغتك الأم افتراضياً. يمكنك إضافة لغات أخرى بالأسفل.'}</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="languagesContainer">
+                    ${languagesHtml}
+                </div>
+                
+                <button type="button" id="addLanguageBtn" class="btn-secondary w-full">
+                    <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    ${isEnglish ? 'Add Language' : 'إضافة لغة'}
+                </button>
             `;
         }
 
@@ -1892,7 +1720,7 @@
                 <div class="bg-gray-800/50 rounded-xl p-4 mb-4">
                     <div class="flex justify-between items-center">
                         <div class="flex-1">
-                            <input type="text" class="input-field interest-text" placeholder="${isEnglish ? 'Enter an interest or activity' : 'أدخل اهتمام أو نشاط'}" value="${interest}">
+                            <input type="text" class="input-field interest-text" value="${interest}">
                         </div>
                         <button type="button" onclick="removeInterest(${index})" class="text-red-400 hover:text-red-300 mr-3">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1905,17 +1733,17 @@
 
             return `
                 <div class="text-center mb-8">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-pink-500/20 flex items-center justify-center">
-                        <svg class="w-8 h-8 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-fuchsia-500/20 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-fuchsia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                         </svg>
                     </div>
                     <h2 class="text-2xl font-bold mb-2">${isEnglish ? 'Activities & Interests' : 'الأنشطة والاهتمامات'}</h2>
-                    <p class="text-gray-400">${isEnglish ? 'Share your hobbies and activities' : 'شارك هواياتك وأنشطتك (اختياري)'}</p>
+                    <p class="text-gray-400">${isEnglish ? 'Share your hobbies and activities (optional)' : 'شارك هواياتك وأنشطتك (اختياري)'}</p>
                 </div>
                 
                 <div id="interestsContainer">
-                    ${interestsHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No interests added yet' : 'لم يتم إضافة اهتمامات بعد (يمكنك تخطي هذه الخطوة)'}</p>`}
+                    ${interestsHtml || `<p class="text-gray-500 text-center py-8">${isEnglish ? 'No interests added yet' : 'لم يتم إضافة اهتمامات بعد'}</p>`}
                 </div>
                 
                 <button type="button" id="addInterestBtn" class="btn-secondary w-full">
@@ -1954,35 +1782,6 @@
                         حفظ في سيرتي الذاتية
                     </button>
                 </div>
-                
-                <div class="bg-gray-800/30 rounded-xl p-6 text-center">
-                    <div class="flex justify-center gap-6">
-                        <div class="text-center">
-                            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-2 mx-auto">
-                                <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                                </svg>
-                            </div>
-                            <p class="text-sm text-gray-500">متوافق ATS</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-12 h-12 rounded-xl bg-amber-500/20 flex items-center justify-center mb-2 mx-auto">
-                                <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
-                                </svg>
-                            </div>
-                            <p class="text-sm text-gray-500">قابل للتعديل</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center mb-2 mx-auto">
-                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
-                                </svg>
-                            </div>
-                            <p class="text-sm text-gray-500">نسخ سهل</p>
-                        </div>
-                    </div>
-                </div>
             `;
         }
 
@@ -1990,11 +1789,9 @@
         function toggleCurrentlyWorking(index, checked) {
             cvData.experience[index].currentlyWorking = checked;
             const endInput = document.querySelectorAll('.exp-end')[index];
-            if (checked) {
-                endInput.disabled = true;
-                endInput.value = '';
-            } else {
-                endInput.disabled = false;
+            if (endInput) {
+                endInput.disabled = checked;
+                if (checked) endInput.value = '';
             }
         }
 
@@ -2049,52 +1846,70 @@
             if (gradYear) gradYear.addEventListener('input', e => cvData.education.year = e.target.value);
             if (militaryStatus) militaryStatus.addEventListener('change', e => cvData.education.militaryStatus = e.target.value);
 
-            // Links step
+            // Add buttons with data saving before adding new item
             const addLinkBtn = document.getElementById('addLinkBtn');
             if (addLinkBtn) {
                 addLinkBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
                     cvData.links.push({ name: '', url: '' });
                     renderStepContent();
                 });
             }
 
-            // Experience step
             const addExpBtn = document.getElementById('addExperienceBtn');
             if (addExpBtn) {
                 addExpBtn.addEventListener('click', () => {
-                    cvData.experience.push({ title: '', company: '', city: '', country: '', startDate: '', endDate: '', description: '', currentlyWorking: false });
+                    saveCurrentStepData();
+                    cvData.experience.push({ title: '', company: '', startDate: '', endDate: '', description: '', currentlyWorking: false });
                     renderStepContent();
                 });
             }
 
-            // Training step
+            const addProjectBtn = document.getElementById('addProjectBtn');
+            if (addProjectBtn) {
+                addProjectBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
+                    cvData.projects.push({ name: '', date: '', goal: '', role: '', tools: '', result: '' });
+                    renderStepContent();
+                });
+            }
+
+            const addVolunteeringBtn = document.getElementById('addVolunteeringBtn');
+            if (addVolunteeringBtn) {
+                addVolunteeringBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
+                    cvData.volunteering.push({ name: '', organization: '', startDate: '', endDate: '', tasks: '' });
+                    renderStepContent();
+                });
+            }
+
             const addTrainBtn = document.getElementById('addTrainingBtn');
             if (addTrainBtn) {
                 addTrainBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
                     cvData.training.push({ name: '', provider: '', month: '', year: '', duration: '', learned: '' });
                     renderStepContent();
                 });
             }
 
-            // Courses step
             const addCourseBtn = document.getElementById('addCourseBtn');
             if (addCourseBtn) {
                 addCourseBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
                     cvData.courses.push({ name: '', provider: '', month: '', year: '', duration: '', learned: '' });
                     renderStepContent();
                 });
             }
 
-            // Certificates step
             const addCertBtn = document.getElementById('addCertificateBtn');
             if (addCertBtn) {
                 addCertBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
                     cvData.certificates.push({ name: '', issuer: '', month: '', year: '', certificateId: '' });
                     renderStepContent();
                 });
             }
 
-            // Skills step
             const skillInput = document.getElementById('skillInput');
             const addSkillBtnEl = document.getElementById('addSkillBtn');
             if (addSkillBtnEl && skillInput) {
@@ -2114,10 +1929,19 @@
                 });
             }
 
-            // Interests step
+            const addLanguageBtn = document.getElementById('addLanguageBtn');
+            if (addLanguageBtn) {
+                addLanguageBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
+                    cvData.languages.push({ name: '', level: 'intermediate' });
+                    renderStepContent();
+                });
+            }
+
             const addInterestBtn = document.getElementById('addInterestBtn');
             if (addInterestBtn) {
                 addInterestBtn.addEventListener('click', () => {
+                    saveCurrentStepData();
                     cvData.interests.push('');
                     renderStepContent();
                 });
@@ -2127,12 +1951,8 @@
             const previewBtn = document.getElementById('previewCVBtn');
             const saveBtn = document.getElementById('saveCVBtn');
             
-            if (previewBtn) {
-                previewBtn.addEventListener('click', showCVPreview);
-            }
-            if (saveBtn) {
-                saveBtn.addEventListener('click', saveCV);
-            }
+            if (previewBtn) previewBtn.addEventListener('click', showCVPreview);
+            if (saveBtn) saveBtn.addEventListener('click', saveCV);
         }
 
         // ========== Remove Functions ==========
@@ -2143,6 +1963,16 @@
 
         function removeExperience(index) {
             cvData.experience.splice(index, 1);
+            renderStepContent();
+        }
+
+        function removeProject(index) {
+            cvData.projects.splice(index, 1);
+            renderStepContent();
+        }
+
+        function removeVolunteering(index) {
+            cvData.volunteering.splice(index, 1);
             renderStepContent();
         }
 
@@ -2163,6 +1993,11 @@
 
         function removeSkill(index) {
             cvData.skills.splice(index, 1);
+            renderStepContent();
+        }
+
+        function removeLanguage(index) {
+            cvData.languages.splice(index, 1);
             renderStepContent();
         }
 
@@ -2214,101 +2049,142 @@
             showToast('تم حفظ المسودة', 'success');
         });
 
+        // ========== Fixed Save Current Step Data ==========
         function saveCurrentStepData() {
             const step = STEPS[currentStep];
             
             switch(step.id) {
                 case 'links':
-                    const linkNames = document.querySelectorAll('.link-name');
-                    const linkUrls = document.querySelectorAll('.link-url');
                     cvData.links = [];
-                    linkNames.forEach((input, i) => {
-                        if (input.value.trim() || linkUrls[i].value.trim()) {
+                    document.querySelectorAll('#linksContainer > div').forEach(container => {
+                        const name = container.querySelector('.link-name');
+                        const url = container.querySelector('.link-url');
+                        if (name && url && (name.value.trim() || url.value.trim())) {
                             cvData.links.push({
-                                name: input.value.trim(),
-                                url: linkUrls[i].value.trim()
+                                name: name.value.trim(),
+                                url: url.value.trim()
                             });
                         }
                     });
                     break;
                     
                 case 'experience':
-                    const expContainers = document.querySelectorAll('#experienceContainer > div');
                     cvData.experience = [];
-                    expContainers.forEach(container => {
+                    document.querySelectorAll('#experienceContainer > div').forEach(container => {
                         const title = container.querySelector('.exp-title');
                         if (title) {
                             cvData.experience.push({
-                                title: title.value,
-                                company: container.querySelector('.exp-company')?.value || '',
-                                city: container.querySelector('.exp-city')?.value || '',
-                                country: container.querySelector('.exp-country')?.value || '',
+                                title: title.value.trim(),
+                                company: container.querySelector('.exp-company')?.value.trim() || '',
                                 startDate: container.querySelector('.exp-start')?.value || '',
                                 endDate: container.querySelector('.exp-end')?.value || '',
-                                description: container.querySelector('.exp-desc')?.value || '',
+                                description: container.querySelector('.exp-desc')?.value.trim() || '',
                                 currentlyWorking: container.querySelector('.exp-current')?.checked || false
+                            });
+                        }
+                    });
+                    break;
+
+                case 'projects':
+                    cvData.projects = [];
+                    document.querySelectorAll('#projectsContainer > div').forEach(container => {
+                        const name = container.querySelector('.proj-name');
+                        if (name && name.value.trim()) {
+                            cvData.projects.push({
+                                name: name.value.trim(),
+                                date: container.querySelector('.proj-date')?.value.trim() || '',
+                                goal: container.querySelector('.proj-goal')?.value.trim() || '',
+                                role: container.querySelector('.proj-role')?.value.trim() || '',
+                                tools: container.querySelector('.proj-tools')?.value.trim() || '',
+                                result: container.querySelector('.proj-result')?.value.trim() || ''
+                            });
+                        }
+                    });
+                    break;
+
+                case 'volunteering':
+                    cvData.volunteering = [];
+                    document.querySelectorAll('#volunteeringContainer > div').forEach(container => {
+                        const name = container.querySelector('.vol-name');
+                        if (name && name.value.trim()) {
+                            cvData.volunteering.push({
+                                name: name.value.trim(),
+                                organization: container.querySelector('.vol-org')?.value.trim() || '',
+                                startDate: container.querySelector('.vol-start')?.value || '',
+                                endDate: container.querySelector('.vol-end')?.value || '',
+                                tasks: container.querySelector('.vol-tasks')?.value.trim() || ''
                             });
                         }
                     });
                     break;
                     
                 case 'training':
-                    const trainContainers = document.querySelectorAll('#trainingContainer > div');
                     cvData.training = [];
-                    trainContainers.forEach(container => {
+                    document.querySelectorAll('#trainingContainer > div').forEach(container => {
                         const name = container.querySelector('.train-name');
                         if (name && name.value.trim()) {
                             cvData.training.push({
-                                name: name.value,
-                                provider: container.querySelector('.train-provider')?.value || '',
+                                name: name.value.trim(),
+                                provider: container.querySelector('.train-provider')?.value.trim() || '',
                                 month: container.querySelector('.train-month')?.value || '',
                                 year: container.querySelector('.train-year')?.value || '',
                                 duration: container.querySelector('.train-duration')?.value || '',
-                                learned: container.querySelector('.train-learned')?.value || ''
+                                learned: container.querySelector('.train-learned')?.value.trim() || ''
                             });
                         }
                     });
                     break;
                     
                 case 'courses':
-                    const courseContainers = document.querySelectorAll('#coursesContainer > div');
                     cvData.courses = [];
-                    courseContainers.forEach(container => {
+                    document.querySelectorAll('#coursesContainer > div').forEach(container => {
                         const name = container.querySelector('.course-name');
                         if (name && name.value.trim()) {
                             cvData.courses.push({
-                                name: name.value,
-                                provider: container.querySelector('.course-provider')?.value || '',
+                                name: name.value.trim(),
+                                provider: container.querySelector('.course-provider')?.value.trim() || '',
                                 month: container.querySelector('.course-month')?.value || '',
                                 year: container.querySelector('.course-year')?.value || '',
                                 duration: container.querySelector('.course-duration')?.value || '',
-                                learned: container.querySelector('.course-learned')?.value || ''
+                                learned: container.querySelector('.course-learned')?.value.trim() || ''
                             });
                         }
                     });
                     break;
                     
                 case 'certificates':
-                    const certContainers = document.querySelectorAll('#certificatesContainer > div');
                     cvData.certificates = [];
-                    certContainers.forEach(container => {
+                    document.querySelectorAll('#certificatesContainer > div').forEach(container => {
                         const name = container.querySelector('.cert-name');
                         if (name && name.value.trim()) {
                             cvData.certificates.push({
-                                name: name.value,
-                                issuer: container.querySelector('.cert-issuer')?.value || '',
+                                name: name.value.trim(),
+                                issuer: container.querySelector('.cert-issuer')?.value.trim() || '',
                                 month: container.querySelector('.cert-month')?.value || '',
                                 year: container.querySelector('.cert-year')?.value || '',
-                                certificateId: container.querySelector('.cert-id')?.value || ''
+                                certificateId: container.querySelector('.cert-id')?.value.trim() || ''
+                            });
+                        }
+                    });
+                    break;
+
+                case 'languages':
+                    cvData.languages = [];
+                    document.querySelectorAll('#languagesContainer > div').forEach(container => {
+                        const name = container.querySelector('.lang-name');
+                        const level = container.querySelector('.lang-level');
+                        if (name && level) {
+                            cvData.languages.push({
+                                name: name.value.trim(),
+                                level: level.value
                             });
                         }
                     });
                     break;
                     
                 case 'interests':
-                    const interestInputs = document.querySelectorAll('.interest-text');
                     cvData.interests = [];
-                    interestInputs.forEach(input => {
+                    document.querySelectorAll('.interest-text').forEach(input => {
                         if (input.value.trim()) {
                             cvData.interests.push(input.value.trim());
                         }
@@ -2367,7 +2243,7 @@
             if (cvData.links.length > 0) {
                 linksSection = cvData.links.filter(l => l.name && l.url).map(l => `<a href="${l.url}" style="color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #059669;">${l.name}</a>`).join(' | ');
             }
-            
+
             let experienceSection = '';
             if (cvData.experience.length > 0) {
                 experienceSection = `
@@ -2379,8 +2255,48 @@
                                     <strong style="font-size: 14px;">${exp.title}</strong>
                                     <span style="color: #666; font-size: 13px;">${exp.startDate} - ${exp.currentlyWorking ? (isEnglish ? 'Present' : 'حتى الآن') : (exp.endDate || (isEnglish ? 'Present' : 'حتى الآن'))}</span>
                                 </div>
-                                <div style="color: #059669; margin-bottom: 5px; font-size: 13px;">${exp.company}${exp.city ? ` - ${exp.city}` : ''}${exp.country ? `, ${exp.country}` : ''}</div>
+                                ${exp.company ? `<div style="color: #059669; margin-bottom: 5px; font-size: 13px;">${exp.company}</div>` : ''}
                                 ${exp.description ? `<p style="margin: 0; color: #444; font-size: 13px; line-height: 1.6;">${exp.description}</p>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            let projectsSection = '';
+            if (cvData.projects.length > 0) {
+                projectsSection = `
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="color: #1a1a1a; border-bottom: 2px solid #059669; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 700;">${isEnglish ? 'PROJECTS' : 'المشاريع'}</h3>
+                        ${cvData.projects.filter(p => p.name).map(p => `
+                            <div style="margin-bottom: 15px;">
+                                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                    <strong style="font-size: 14px;">${p.name}</strong>
+                                    ${p.date ? `<span style="color: #666; font-size: 13px;">${p.date}</span>` : ''}
+                                </div>
+                                ${p.goal ? `<p style="margin: 3px 0; color: #444; font-size: 13px;"><strong>${isEnglish ? 'Goal' : 'الهدف'}:</strong> ${p.goal}</p>` : ''}
+                                ${p.role ? `<p style="margin: 3px 0; color: #444; font-size: 13px;"><strong>${isEnglish ? 'Role' : 'الدور'}:</strong> ${p.role}</p>` : ''}
+                                ${p.tools ? `<p style="margin: 3px 0; color: #444; font-size: 13px;"><strong>${isEnglish ? 'Tools' : 'الأدوات'}:</strong> ${p.tools}</p>` : ''}
+                                ${p.result ? `<p style="margin: 3px 0; color: #444; font-size: 13px;"><strong>${isEnglish ? 'Result' : 'النتيجة'}:</strong> ${p.result}</p>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            let volunteeringSection = '';
+            if (cvData.volunteering.length > 0) {
+                volunteeringSection = `
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="color: #1a1a1a; border-bottom: 2px solid #059669; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 700;">${isEnglish ? 'VOLUNTEERING' : 'التطوع'}</h3>
+                        ${cvData.volunteering.filter(v => v.name).map(v => `
+                            <div style="margin-bottom: 15px;">
+                                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                    <strong style="font-size: 14px;">${v.name}</strong>
+                                    <span style="color: #666; font-size: 13px;">${v.startDate} - ${v.endDate || (isEnglish ? 'Present' : 'حتى الآن')}</span>
+                                </div>
+                                ${v.organization ? `<div style="color: #059669; margin-bottom: 5px; font-size: 13px;">${v.organization}</div>` : ''}
+                                ${v.tasks ? `<p style="margin: 0; color: #444; font-size: 13px; line-height: 1.6;">${v.tasks}</p>` : ''}
                             </div>
                         `).join('')}
                     </div>
@@ -2442,6 +2358,7 @@
                     </div>
                 `;
             }
+
             let skillsSection = '';
             if (cvData.skills.length > 0) {
                 skillsSection = `
@@ -2451,6 +2368,27 @@
                             ${cvData.skills.map(s => `<span style="background: #f0f0f0; color: #1a1a1a; padding: 4px 12px; border-radius: 4px; font-size: 13px; border: 1px solid #ddd;">${s}</span>`).join('')}
                         </div>
                         ${cvData.hasLicense ? `<p style="margin-top: 10px; font-size: 13px;"><strong>${isEnglish ? 'Driving License' : 'رخصة قيادة'}:</strong> ${isEnglish ? 'Yes' : 'نعم'}</p>` : ''}
+                    </div>
+                `;
+            }
+
+            let languagesSection = '';
+            if (cvData.languages.length > 0) {
+                const levelLabels = {
+                    'native': isEnglish ? 'Native' : 'اللغة الأم',
+                    'fluent': isEnglish ? 'Fluent' : 'طلاقة',
+                    'advanced': isEnglish ? 'Advanced' : 'متقدم',
+                    'intermediate': isEnglish ? 'Intermediate' : 'متوسط',
+                    'basic': isEnglish ? 'Basic' : 'مبتدئ'
+                };
+                languagesSection = `
+                    <div style="margin-bottom: 20px;">
+                        <h3 style="color: #1a1a1a; border-bottom: 2px solid #059669; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 700;">${isEnglish ? 'LANGUAGES' : 'اللغات'}</h3>
+                        ${cvData.languages.filter(l => l.name).map(l => `
+                            <div style="margin-bottom: 8px; font-size: 13px;">
+                                <strong>${l.name}</strong> - ${levelLabels[l.level] || l.level}
+                            </div>
+                        `).join('')}
                     </div>
                 `;
             }
@@ -2508,10 +2446,13 @@
                     </div>
                     
                     ${experienceSection}
+                    ${projectsSection}
+                    ${volunteeringSection}
                     ${trainingSection}
                     ${coursesSection}
                     ${certificatesSection}
                     ${skillsSection}
+                    ${languagesSection}
                     ${interestsSection}
                 </div>
             `;
@@ -2572,6 +2513,36 @@
                     text += '\n';
                 });
             }
+
+            // Projects
+            if (cvData.projects.length > 0) {
+                text += `${isEnglish ? 'PROJECTS' : 'المشاريع'}\n`;
+                text += '-'.repeat(30) + '\n';
+                cvData.projects.filter(p => p.name).forEach(p => {
+                    text += `• ${p.name}`;
+                    if (p.date) text += ` (${p.date})`;
+                    text += '\n';
+                    if (p.goal) text += `  ${isEnglish ? 'Goal' : 'الهدف'}: ${p.goal}\n`;
+                    if (p.role) text += `  ${isEnglish ? 'Role' : 'الدور'}: ${p.role}\n`;
+                    if (p.tools) text += `  ${isEnglish ? 'Tools' : 'الأدوات'}: ${p.tools}\n`;
+                    if (p.result) text += `  ${isEnglish ? 'Result' : 'النتيجة'}: ${p.result}\n`;
+                    text += '\n';
+                });
+            }
+
+            // Volunteering
+            if (cvData.volunteering.length > 0) {
+                text += `${isEnglish ? 'VOLUNTEERING' : 'التطوع'}\n`;
+                text += '-'.repeat(30) + '\n';
+                cvData.volunteering.filter(v => v.name).forEach(v => {
+                    text += `• ${v.name}`;
+                    if (v.organization) text += ` - ${v.organization}`;
+                    text += '\n';
+                    text += `  ${v.startDate} - ${v.endDate || (isEnglish ? 'Present' : 'حتى الآن')}\n`;
+                    if (v.tasks) text += `  ${v.tasks}\n`;
+                    text += '\n';
+                });
+            }
             
             // Training
             if (cvData.training.length > 0) {
@@ -2617,6 +2588,23 @@
                 }
                 text += '\n';
             }
+
+            // Languages
+            if (cvData.languages.length > 0) {
+                text += `${isEnglish ? 'LANGUAGES' : 'اللغات'}\n`;
+                text += '-'.repeat(30) + '\n';
+                const levelLabels = {
+                    'native': isEnglish ? 'Native' : 'اللغة الأم',
+                    'fluent': isEnglish ? 'Fluent' : 'طلاقة',
+                    'advanced': isEnglish ? 'Advanced' : 'متقدم',
+                    'intermediate': isEnglish ? 'Intermediate' : 'متوسط',
+                    'basic': isEnglish ? 'Basic' : 'مبتدئ'
+                };
+                cvData.languages.filter(l => l.name).forEach(l => {
+                    text += `• ${l.name}: ${levelLabels[l.level] || l.level}\n`;
+                });
+                text += '\n';
+            }
             
             // Interests
             if (cvData.interests.length > 0) {
@@ -2641,13 +2629,11 @@
             document.getElementById('cvPreviewModal').classList.remove('active');
         });
 
-        // Modified Copy Button Logic
         document.getElementById('copyTextBtn').addEventListener('click', function() {
             const text = generatePlainText();
             navigator.clipboard.writeText(text).then(() => {
                 showToast('تم نسخ النص بنجاح! افتح Word والصق النص (Ctrl+V)', 'success');
             }).catch(() => {
-                // Fallback for older browsers
                 const textarea = document.createElement('textarea');
                 textarea.value = text;
                 document.body.appendChild(textarea);
@@ -2679,7 +2665,6 @@
             saveData();
             showToast('تم حفظ السيرة الذاتية بنجاح', 'success');
             
-            // Go to my CVs screen
             setTimeout(() => {
                 renderMyCVs();
                 showScreen('myCVsScreen');
@@ -2690,7 +2675,6 @@
             const container = document.getElementById('cvsList');
             const noCVsMsg = document.getElementById('noCVsMessage');
             
-            // Reload from localStorage
             savedCVs = JSON.parse(localStorage.getItem('agriCV_cvs')) || [];
             
             if (savedCVs.length === 0) {
@@ -2756,7 +2740,6 @@
         function viewCV(id) {
             const cv = savedCVs.find(c => c.id === id);
             if (cv) {
-                // Temporarily set cvData for preview
                 const tempCVData = cvData;
                 cvData = cv.data;
                 showCVPreview();
@@ -2780,10 +2763,13 @@
         window.toggleCurrentlyWorking = toggleCurrentlyWorking;
         window.removeLink = removeLink;
         window.removeExperience = removeExperience;
+        window.removeProject = removeProject;
+        window.removeVolunteering = removeVolunteering;
         window.removeTraining = removeTraining;
         window.removeCourse = removeCourse;
         window.removeCertificate = removeCertificate;
         window.removeSkill = removeSkill;
+        window.removeLanguage = removeLanguage;
         window.removeInterest = removeInterest;
         window.addSuggestedSkill = addSuggestedSkill;
         window.toggleHelp = toggleHelp;
@@ -2804,7 +2790,6 @@
 
         // ========== Initialize App ==========
         function init() {
-            // Load saved data
             savedCVs = JSON.parse(localStorage.getItem('agriCV_cvs')) || [];
             
             if (userData) {
@@ -2838,7 +2823,6 @@
             });
         }
 
-        // Start the app
         init();
     </script>
 </body>
